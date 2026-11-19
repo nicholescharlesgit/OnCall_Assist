@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from schemas import patientSchema,DoctorSchema,Deptschema
+from app.schemas import patientSchema,DoctorSchema,Deptschema
 router=APIRouter()
 patients=[]
 dept=[]

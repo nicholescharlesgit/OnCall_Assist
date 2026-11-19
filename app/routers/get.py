@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from routers.posts import patients, doctors,dept
+from app.routers.posts import patients, doctors,dept
 
 from fastapi import HTTPException
 router=APIRouter()  
