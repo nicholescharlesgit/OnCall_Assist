@@ -1,0 +1,10 @@
+SELECT * FROM doctors;
+SELECT * FROM doctors WHERE department_id = 1;
+SELECT * FROM doctors ORDER BY name;
+SELECT * FROM doctors LIMIT 2;
+SELECT DISTINCT department_id FROM doctors;
+SELECT * FROM patients WHERE date_of_birth > '2000-12-31';
+SELECT * FROM patients WHERE email IS NOT NULL;
+SELECT * FROM patients WHERE email IS NULL;
+SELECT * FROM patients WHERE date_of_birth > '2000-12-31' AND email IS NULL;
+SELECT * FROM patients WHERE date_of_birth > '2000-12-31' OR email IS NULL;
